@@ -1,6 +1,6 @@
 import { Answer, Staff, Status, SurveyPayload } from "@/types";
 import { LABEL } from "./status";
-export const ADMINS = ["山田", "佐藤", "鈴木"];
+export const ADMINS = ["野村","菊地","板倉","三浦","根本","シェリー"];
 const GAS = process.env.NEXT_PUBLIC_GAS_API_URL;
 const SK = "cd_staff", AK = "cd_answers";
 const read = <T,>(k: string, d: T): T => { try { return JSON.parse(localStorage.getItem(k) || "") as T; } catch { return d; } };
