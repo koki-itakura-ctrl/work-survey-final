@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "カンタン！お仕事アンケート",
-  description: "お仕事アンケート",
+  description: "就業アンケート",
 };
 
 export default function RootLayout({
