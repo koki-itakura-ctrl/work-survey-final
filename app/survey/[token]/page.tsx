@@ -23,13 +23,12 @@ export default function SurveyPage() {
   return (
     <div className="min-h-screen bg-[#f3f0ff] py-10 px-4 font-sans">
       <div className="max-w-xl mx-auto space-y-6">
-        {/* ヘッダーリンクなしのタイトルエリア */}
+        {/* ヘッダーナビゲーションを完全削除したタイトル表示 */}
         <div className="text-center py-2">
           <h1 className="text-2xl font-bold text-slate-900">カンタン！お仕事アンケート</h1>
           <p className="text-indigo-600 text-sm mt-1 font-medium">テスト さん</p>
         </div>
 
-        {/* 設問カード */}
         <div className="bg-white p-6 rounded-2xl shadow-sm space-y-3">
           <h2 className="text-slate-800 font-semibold">Q1. 現在の業務内容には満足していますか？</h2>
           <div className="flex justify-between gap-2 pt-2">
